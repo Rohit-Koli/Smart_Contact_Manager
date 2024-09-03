@@ -6,6 +6,8 @@ import Hello from "./Components/public/Hello";
 import About from "./Components/public/About";
 import Services from "./Components/public/Services";
 import Contact from "./Components/public/Contact";
+import SignUp from "./Components/public/SignUp";
+import Login from "./Components/public/Login";
 function App() {
   
   return (
@@ -20,7 +22,8 @@ function App() {
           <Route path="/home" element={<HomePage/>}/>
           <Route path="/services" element={<Services/>}/>
           <Route path="/contact" element={<Contact/>}/>
-
+          <Route path="/login" element={<Login/>}/>
+          <Route path="/signup" element={<SignUp/>}/>
         </Routes>
       </Router>
     </>
